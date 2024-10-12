@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with MongoDB, Express, React, Node (MERN) Stack and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1HktmSENwgeovfjd7HYnWhzWqo_N5pOjj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yWh7H0daVvMP9Z5jLx-bqeB_n7G3jYhw/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/shubhanshu1911",
   linkedin: "https://www.linkedin.com/in/shubhanshu-khare-7011321a4/",
   gmail: "shubhkhare19@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  Twitter: "https://x.com/_Shubhanshu_19?s=08",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -51,13 +51,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for web applications"
-    ),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and MERN Stacks"),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,10 +96,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
+    {
+      skillName: "AWS EC2",
+      fontAwesomeClassname: "fab fa-aws"
+    },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -112,10 +108,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -154,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -175,33 +171,39 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Web Developer Intern",
+      company: "Adankaa Automation System",
+      companylogo: require("./assets/images/logo.jpeg"),
+      date: "May 2024 – Aug 2024",
+      desc: "Chennai, Tamilnadu",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a secure company website using Figma and the MERN stack, integrating JWT authentication, to enhance order security.",
+        "Created a tool in React.js and Node.js that linked CAD models to Ultimaker Cura for 3D printing, improving workflow by 30%.",
+        "Designed a UI for robotic hand integrated with IoT device using MQTT and JavaScript resulting in precise movement and control of the robotic hand."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full-stack Developer Intern",
+      company: "Nexus Info",
+      companylogo: require("./assets/images/Nexus_logo.png"),
+      date: "Jan 2024 – Mar 2024",
+      desc: "Remote",
+      descBullets: [
+        "Engineered a company website using the MERN stack, boosting user engagement by 30%.",
+        "Enhanced SEO best practices, improving search visibility and interaction by 30%.",
+        "Collaborated with 5+ teams, aligning projects with business objectives, enhancing coherence."
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -219,6 +221,31 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF MY PERSONAL PROJECTS",
   projects: [
+    {
+      image: require("./assets/images/webnotes_logo.png"),
+      projectName: "Webnotes",
+      projectDesc: "Developed a robust note-taking Chrome extension leveraging the MERN stack.",
+      techUsed: [
+        { name: "React" },
+        { name: "Node.js" },
+        { name: "MongoDB" },
+        { name: "Express.js" },
+        { name: "CSS" },
+        { name: "REST API" },
+        { name: "JWT authentication"}
+        // Add more technologies with names and optional URLs
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://webnotes-0iqe.onrender.com/"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/shubhanshu1911/Webnotes_fontend"
+        }
+      ]
+    },
     {
       image: require("./assets/images/planfinity_logo.png"),
       projectName: "Planfinity",
@@ -271,25 +298,8 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/covers_logo.png"),
-      projectName: "Covers",
-      projectDesc: "This website compares electronic product prices across platforms like Amazon and Flipkart, offering the best purchase link.",
-      techUsed: [
-        { name: "HTML"},
-        { name: "CSS"},
-        { name: "PHP"},
-        { name : "MySQL"},
-        // Add more technologies with names and optional URLs
-      ],
-      footerLink: [
-        {
-          name: "Github",
-          url: "https://github.com/shubhanshu1911/Covers"
-        }
-      ]
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -298,7 +308,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -320,19 +330,19 @@ const achievementSection = {
         // },
       ]
     },
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
+    {
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
 
     // {
     //   title: "PWA Web App Developer",
@@ -348,7 +358,7 @@ const achievementSection = {
     //   ]
     // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
